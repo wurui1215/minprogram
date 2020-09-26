@@ -1,0 +1,15 @@
+.nav{
+  width: 750rpx;
+  height: 80rpx;
+  background-color: #eee;
+}
+.nav scroll-view{
+  width: 750rpx;
+  height: 80rpx;
+  white-space: nowrap;
+  line-height: 80rpx;
+}
+.nav .nav-model{
+  margin: 0 20rpx;
+  display: inline-block;
+}

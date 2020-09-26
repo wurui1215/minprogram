@@ -1,0 +1,7 @@
+<view class="nav">
+  <scroll-view scroll-x="true">
+    <view url='../sort/sort' class="nav-model" wx:for="{{5}}">141123</view>
+  </scroll-view>
+</view>
+<button wx:if="{{userInfo}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">点击授权</button>
+<button bindtap="pay">支付</button>

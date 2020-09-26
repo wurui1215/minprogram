@@ -1,0 +1,34 @@
+<!-- search -->
+<view class="search">
+  <icon type="search" size="75rpx"></icon>
+  <input type="text"></input>
+  <image
+  src="../../icon/iconList1.png"
+  mode="aspectFill"></image>
+  <text>品类</text>
+</view>
+
+<!-- banner -->
+<swiper
+indicator-dots="true"
+autoplay="true"
+interval="3000"
+duration="1500">
+  <block wx:for="{{imagesUrl}}">
+    <swiper-item>
+      <image src="{{item}}" mode="scaleToFill"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view>
+  <view>
+    <text>推荐</text>
+  </view>
+  <view wx:for="{{9}}" class="list">
+    <view class="module">
+      <image src="../../images/1.jpg" mode="scaleToFill"></image>
+      <view>121445345</view>
+    </view>
+  </view>
+</view>

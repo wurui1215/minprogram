@@ -1,0 +1,29 @@
+.userinfo{
+  width: 750rpx;
+  height: 300rpx;
+  border-bottom: 1rpx solid #aaa;
+}
+.portrait{
+  width: 100%;
+}
+.userinfo-avatar{
+  width: 200rpx;
+  height: 300rpx;
+  margin: 20rpx auto 0 auto;
+}
+.userinfo-avatar image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+.userinfo-avatar text{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+.getUserInfo{
+  width: 750rpx;
+  height: 300rpx;
+  margin: 50rpx auto 0 auto;
+}
